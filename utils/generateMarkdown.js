@@ -35,11 +35,10 @@ function generateMarkdown(data) {
   
   ## Contribution:
 
-  Guidlines to contribute:
   ${data.contributions}
 
-  ## Developer: ${data.Name}
-
+  ## Developer: 
+  ${data.Name}
 
   ## Questions:
   Please contact me if you have any questions.
