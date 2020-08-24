@@ -12,22 +12,22 @@
   * [Contact Developer](##Questions)
   
   ## Description: 
-  description
+  This project allows you to generate a README file using node and npm packages.
 
   ## Usage:
-  generate readme
+  Generate README
   
   ## Istallation: npm i
 
   ## License:
-  undefined(https://opensource.org/licenses/)
+  undefined
   
   ## Contribution:
 
   Guidlines to contribute:
-  Fork it!
+  Fork it! Or contact the developer
 
-  ## Developer: undefined
+  ## Developer: Ahmed Sheikh
 
 
   ## Questions:

@@ -59,9 +59,8 @@ THEN I am taken to the corresponding section of the README
 
 ```
 
-## Video Demo
+## Video Demonstration
 
-[Youtube](https://www.youtube.com/watch?v=g3ii2wMfKw0)
 
 [![Watch the video](https://github.com/achampigny4/ReadMeGenerator/blob/master/assets/ReadMeGeneratorGIFVideo.gif?raw=true)](https://www.youtube.com/watch?v=g3ii2wMfKw0)
 
