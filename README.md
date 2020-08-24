@@ -10,7 +10,7 @@ User's can quickly create a README markdown file using the command prompts.
 
 ```
 
-<img src="https://raw.githubusercontent.com/achampigny4/ReadMeGenerator/master/assets/commandprompt.png" alt="command prompt screenshot"/>
+
 
 ## Table of Contents
 

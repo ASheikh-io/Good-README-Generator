@@ -31,14 +31,14 @@ function generateMarkdown(data) {
   ## Istallation: ${data.installation}
 
   ## License:
-  ${licenseBadge[data.license]}(https://opensource.org/licenses/${data.license})
+  ${licenseBadge[data.license]}
   
   ## Contribution:
 
   Guidlines to contribute:
   ${data.contributions}
 
-  ## Developer: ${data.name}
+  ## Developer: ${data.Name}
 
 
   ## Questions:
