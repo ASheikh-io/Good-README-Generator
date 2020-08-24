@@ -56,7 +56,7 @@ const questions = [{
     {
         type: "input",
         name: "contributions",
-        message: "Who has contributed to this readme?"
+        message: "How can a user contribute to this project?"
     },
     {
         type: "input",
