@@ -14,12 +14,25 @@ function generateMarkdown(data) {
   * [Contact Developer](##Questions)
   * 
   
-  ## Description ${data.description}
+  ## Description: ${data.description}
+  
   ## Istallation ${data.installation}
-  ## ${data.license}
-  ## ${data.contributions}
-  ## ${data.username}
-  ## ${data.email}`;
+
+  ## License:
+  [${data.license}](https://opensource.org/licenses/${data.license})
+  
+  ## Contribution:
+
+  Guidlines to contribute:
+  ${data.contribution}
+  
+  ## Questions:
+  Please contact me if you have any questions.
+ 
+  email: [${data.email}](${data.email})
+  
+  github: [${data.userName}](https://www.github.com/${data.userName})
+  `;
 }
 
 

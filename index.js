@@ -17,10 +17,12 @@ const questions = [{
     message: "Enter a description for your readme."
   },
   {
-    type: "input",
-    name: "Installation",
-    message: "What are the instructions for installing for your readme?"
-  },
+    type: "list",
+    name: "installation",
+    message: "Command to install: ",
+    choices: ["npm i"],
+    default: "npm i"
+},
   {
     type: "input",
     name: "usage",
