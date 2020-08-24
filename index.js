@@ -8,6 +8,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [{
         type: "input",
+        message: "What is your name?",
+        name: "Name"
+    },
+    {
+        type: "input",
         message: "What is your Github user name?",
         name: "userName"
     },

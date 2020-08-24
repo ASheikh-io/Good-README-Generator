@@ -16,7 +16,7 @@ function generateMarkdown(data) {
   
   ## Description: ${data.description}
   
-  ## Istallation ${data.installation}
+  ## Istallation: ${data.installation}
 
   ## License:
   [${data.license}](https://opensource.org/licenses/${data.license})
@@ -25,7 +25,10 @@ function generateMarkdown(data) {
 
   Guidlines to contribute:
   ${data.contribution}
-  
+
+  ## Developer: ${data.name}
+
+
   ## Questions:
   Please contact me if you have any questions.
  
