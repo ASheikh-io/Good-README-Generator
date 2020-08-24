@@ -66,7 +66,7 @@ const questions = [{
     {
         type: "input",
         name: "questions",
-        message: "what is the developers name?"
+        message: "What is the developer's name?"
     },
 ];
 
@@ -87,7 +87,8 @@ async function init() {
 
             var readMeOptions = generateMarkdown(answers);
             // call the writetToFile function here
-            writeToFile("README.md", readMeOptions);
+            writeToFile("./Output/README.md", readMeOptions);
+            console.log("successful");
         });
 }
 
