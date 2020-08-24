@@ -14,12 +14,12 @@ const questions = [{
   {
     type: "input",
     name: "Description",
-    message: "Enter a description for your readme"
+    message: "Enter a description for your readme."
   },
   {
     type: "input",
     name: "Installation",
-    message: "what are the instructions for instalation for your readme?"
+    message: "What are the instructions for installing for your readme?"
   },
   {
     type: "input",
@@ -33,7 +33,7 @@ const questions = [{
     choices: [
       'The MIT License',
       'Mozilla Public License 2.0',
-      'GNU AGPL v3'
+      'GNU AGPL v3',
     ]
   },
   {
@@ -54,7 +54,7 @@ const questions = [{
   {
     type: "input",
     name: "Username",
-    message: "what is your github username?"
+    message: "What is your github username?"
   },
   {
     type: "input",
@@ -78,7 +78,6 @@ function init() {
     inquirer
     .prompt(questions)
     .then(answers => {
-      // Use user feedback for... whatever!!
 
       var readMeOptions = generateMarkdown(answers);
       // call the writetToFile function here
