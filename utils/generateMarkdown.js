@@ -13,7 +13,8 @@ function generateMarkdown(data) {
   * [Contribute](##Contribute)
   * [Contact Developer](##Questions)
   
-  ## Description: ${data.description}
+  ## Description: 
+  ${data.description}
   
   ## Istallation: ${data.installation}
 
