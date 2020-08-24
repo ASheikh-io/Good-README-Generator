@@ -1,5 +1,5 @@
 # README Generator
-  [![undefined]
+  undefined
  
   ## Table of Contents:
  
@@ -12,10 +12,10 @@
   * [Contact Developer](##Questions)
   
   ## Description: 
-  This project allows you to generate a README file using node and npm packages.
+  
 
   ## Usage:
-  Generate a README.
+  Generate a README.md file.
   
   ## Istallation: npm i
 
