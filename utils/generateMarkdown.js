@@ -23,8 +23,8 @@ function generateMarkdown(data) {
   ## Istallation: ${data.installation}
 
   ## License:
-  [${data.license}](https://opensource.org/licenses/${data.license})
-  
+  [![${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)](https://opensource.org/licenses/${data.license})
+
   ## Contribution:
 
   ${data.contributions}

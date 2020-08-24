@@ -1,5 +1,6 @@
 # README Generator
-  undefined
+  [![](https://img.shields.io/badge/License--green.svg)](https://opensource.org/licenses/)
+
  
   ## Table of Contents:
  
@@ -12,15 +13,15 @@
   * [Contact Developer](##Questions)
   
   ## Description: 
-  
+  This project allows you to generate a README.md file using node and npm packages.
 
   ## Usage:
-  Generate a README.md file.
+  Generate a README.md file
   
   ## Istallation: npm i
 
   ## License:
-  undefined
+  [](https://opensource.org/licenses/)
   
   ## Contribution:
 
