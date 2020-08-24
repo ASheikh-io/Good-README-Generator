@@ -23,9 +23,9 @@ const questions = [{
   },
   {
     type: "input",
-    name: "Usage",
-    message: "type in the usage for this readme"
-  },
+    name: "usage",
+    message: "This application is used to:"    
+},
   {
     type: "checkbox",
     name: "License",
@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
+async function init() {
     inquirer
     .prompt(questions)
     .then(answers => {
