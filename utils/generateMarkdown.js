@@ -1,9 +1,8 @@
-const badge = require("./licensebadges");
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ${badge[data.license]}
+  [![${data.license}](https://img.shields.io/badge/License-${data.license}-green.svg)](https://opensource.org/licenses/${data.license})
+
  
   ## Table of Contents:
  
@@ -24,7 +23,7 @@ function generateMarkdown(data) {
   ## Istallation: ${data.installation}
 
   ## License:
-  ${badge[data.license]}
+  [${data.license}](https://opensource.org/licenses/${data.license})
   
   ## Contribution:
 
