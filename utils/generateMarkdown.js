@@ -12,7 +12,6 @@ function generateMarkdown(data) {
   * [License](##License)
   * [Contribute](##Contribute)
   * [Contact Developer](##Questions)
-  * 
   
   ## Description: ${data.description}
   

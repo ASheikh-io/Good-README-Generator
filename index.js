@@ -23,12 +23,12 @@ const questions = [{
     },
     {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "what is the title of for your readme?"
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Enter a description for your readme."
     },
     {
@@ -45,7 +45,7 @@ const questions = [{
     },
     {
         type: "checkbox",
-        name: "License",
+        name: "license",
         message: "choose a license for this readme",
         choices: [
             'The MIT License',
@@ -55,17 +55,17 @@ const questions = [{
     },
     {
         type: "input",
-        name: "Contributions",
+        name: "contributions",
         message: "Who has contributed to this readme?"
     },
     {
         type: "input",
-        name: "Tests",
+        name: "tests",
         message: "What tests were executed on this readme?"
     },
     {
         type: "input",
-        name: "Questions",
+        name: "questions",
         message: "what is the developers name?"
     },
 ];
