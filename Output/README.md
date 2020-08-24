@@ -1,5 +1,5 @@
 # README Generator
-  [![undefined](https://img.shields.io/badge/License--green.svg)](https://opensource.org/licenses/)
+  [![undefined]
  
   ## Table of Contents:
  
@@ -15,7 +15,7 @@
   This project allows you to generate a README file using node and npm packages.
 
   ## Usage:
-  Generate README
+  Generate a README.
   
   ## Istallation: npm i
 
@@ -24,11 +24,10 @@
   
   ## Contribution:
 
-  Guidlines to contribute:
-  Fork it! Or contact the developer
+  Fork it! Or contact the developer.
 
-  ## Developer: Ahmed Sheikh
-
+  ## Developer: 
+  Ahmed Sheikh
 
   ## Questions:
   Please contact me if you have any questions.

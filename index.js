@@ -48,7 +48,7 @@ const questions = [{
         name: "license",
         message: "choose a license for this readme",
         choices: [
-            'The MIT License',
+            'MIT',
             'Apache 2.0',
             'GPL v3',
             'GPF v3',
