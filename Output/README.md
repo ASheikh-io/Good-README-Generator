@@ -13,16 +13,16 @@
   * [Contact Developer](##Questions)
   
   ## Description: 
-  This project allows you to generate a README.md file using node and npm packages.
+  This project allows you to generate a README file using node and npm packages.
 
   ## Usage:
-  Generate a README.md file
+  Generate a README.md file.
   
   ## Istallation: npm i
 
   ## License:
-  [](https://opensource.org/licenses/)
-  
+  [![](https://img.shields.io/badge/License--green.svg)](https://opensource.org/licenses/)
+
   ## Contribution:
 
   Fork it! Or contact the developer.
