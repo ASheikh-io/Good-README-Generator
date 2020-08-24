@@ -19,12 +19,12 @@ function generateMarkdown(data) {
   ## Istallation: ${data.installation}
 
   ## License:
-  [${data.license}](https://opensource.org/licenses/${data.license})
+  ${data.license}(https://opensource.org/licenses/${data.license})
   
   ## Contribution:
 
   Guidlines to contribute:
-  ${data.contribution}
+  ${data.contributions}
 
   ## Developer: ${data.name}
 

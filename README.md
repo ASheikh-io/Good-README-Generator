@@ -11,12 +11,13 @@
   * [Contribute](##Contribute)
   * [Contact Developer](##Questions)
   
-  ## Description: This project allows you to generate a readME using node and npm packages.
+  ## Description: 
+  This project allows you to generate a readME using node and npm packages.
   
   ## Istallation: npm i
 
   ## License:
-  [](https://opensource.org/licenses/)
+  (https://opensource.org/licenses/)
   
   ## Contribution:
 
@@ -31,5 +32,5 @@
  
   email: [ahsheikh.a@gmail.com](ahsheikh.a@gmail.com)
   
-  github: [ASheio-io](https://www.github.com/ASheio-io)
+  github: [ASheikh-io](https://www.github.com/ASheikh-io)
   
