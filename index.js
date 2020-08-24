@@ -1,35 +1,66 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
+const writeFileAsync = util.promisify(fs.writeFile);
 
 
 // array of questions for user
 const questions = [{
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?',
-    },
-    {
-        type: 'input',
-        name: 'github',
-        message: 'What is your GitHub user name?',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?',
-    },
-    {
-        type: 'input',
-        name: 'project',
-        message: 'What is your project called?',
-    },
-    {
-        type: 'list',
-        name: 'lisence',
-        message: 'What lisence would you like to use for your project?',
-        choices: ["MIT", "Apache", "GLP"],
-    }
+    type: "input",
+    name: "Title",
+    message: "what is the title of for your readme?"
+  },
+  {
+    type: "input",
+    name: "Description",
+    message: "Enter a description for your readme"
+  },
+  {
+    type: "input",
+    name: "Installation",
+    message: "what are the instructions for instalation for your readme?"
+  },
+  {
+    type: "input",
+    name: "Usage",
+    message: "type in the usage for this readme"
+  },
+  {
+    type: "checkbox",
+    name: "License",
+    message: "choose a license for this readme",
+    choices: [
+      'The MIT License',
+      'Mozilla Public License 2.0',
+      'GNU AGPL v3'
+    ]
+  },
+  {
+    type: "input",
+    name: "Contributions",
+    message: "Who has contributed to this readme?"
+  },
+  {
+    type: "input",
+    name: "Tests",
+    message: "What tests were executed on this readme?"
+  },
+  {
+    type: "input",
+    name: "Questions",
+    message: "what is the developers name?"
+  },
+  {
+    type: "input",
+    name: "Username",
+    message: "what is your github username?"
+  },
+  {
+    type: "input",
+    name: "Email",
+    message: "what is your email?"
+  }     
 
 ];
 
